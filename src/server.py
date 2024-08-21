@@ -5,7 +5,7 @@ import pandasql as psql
 import json
 
 # Load the CSV file into a pandas DataFrame
-df_full = pd.read_csv('../data.csv')
+df_full = pd.read_csv('./data.csv')
 df = df_full.__deepcopy__()
 
 dates = df_full["Date"].drop_duplicates().sort_values().values
