@@ -1,0 +1,14 @@
+asyncio
+websockets
+pandas
+sqlalchemy
+psutil
+pandasql
+joblib
+logging
+uuid
+base64
+multiprocessing
+python-dotenv
+flask
+pyarrow
